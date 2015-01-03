@@ -7,6 +7,6 @@ script:
   - cd spec/dummy
   - bundle exec rake db:migrate
   - cd ../..
-  - CODECLIMATE_REPO_TOKEN=f00f9d93980b88df8925cc3a6590c938797607880026ff9e2d371abd377f8cc1 bundle exec rspec
+  - CODECLIMATE_REPO_TOKEN=91a6230cbb9926efc17b570ce514e00bdd8f5ae9b0590f160e0e8c50e22b8cfa bundle exec rspec
 notifications:
    email: false
