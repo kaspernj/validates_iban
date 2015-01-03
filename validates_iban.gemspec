@@ -1,15 +1,15 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "iban_validator/version"
+require "validates_iban/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "iban_validator"
-  s.version     = IbanValidator::VERSION
+  s.name        = "validates_iban"
+  s.version     = ValidatesIban::VERSION
   s.authors     = ["Kasper Johansen"]
   s.email       = ["k@spernj.org"]
-  s.homepage    = "https://www.github.com/kaspernj/iban_validator"
+  s.homepage    = "https://www.github.com/kaspernj/validates_iban"
   s.summary     = "IBAN validator for ActiveRecord attributes."
   s.description = "IBAN validator for ActiveRecord attributes."
 

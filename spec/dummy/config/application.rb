@@ -9,7 +9,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require
-require "iban_validator"
+require "validates_iban"
 
 module Dummy
   class Application < Rails::Application

@@ -1,8 +1,8 @@
 [![Build Status](https://api.shippable.com/projects/54a7b728d46935d5fbc15f77/badge?branchName=master)](https://app.shippable.com/projects/54a7b728d46935d5fbc15f77/builds/latest)
-[![Code Climate](https://codeclimate.com/github/kaspernj/iban_validator/badges/gpa.svg)](https://codeclimate.com/github/kaspernj/iban_validator)
-[![Test Coverage](https://codeclimate.com/github/kaspernj/iban_validator/badges/coverage.svg)](https://codeclimate.com/github/kaspernj/iban_validator)
+[![Code Climate](https://codeclimate.com/github/kaspernj/validates_iban/badges/gpa.svg)](https://codeclimate.com/github/kaspernj/validates_iban)
+[![Test Coverage](https://codeclimate.com/github/kaspernj/validates_iban/badges/coverage.svg)](https://codeclimate.com/github/kaspernj/validates_iban)
 
-# IbanValidator
+# ValidatesIban
 
 This project rocks and uses MIT-LICENSE.
 
@@ -11,7 +11,7 @@ This project rocks and uses MIT-LICENSE.
 
 Add to your Gemfile and bundle:
 ```ruby
-gem "iban_validator"
+gem "validates_iban"
 ```
 
 
