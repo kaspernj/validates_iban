@@ -4,6 +4,9 @@
 
 # ValidatesIban
 
+ActiveRecord validator for IBAN codes using this project to do the actual validation:
+https://github.com/iulianu/iban-tools
+
 This project rocks and uses MIT-LICENSE.
 
 

@@ -1,4 +1,4 @@
-require "iban_validator"
+require_relative "iban_validator"
 
 module ValidatesIban
 end
