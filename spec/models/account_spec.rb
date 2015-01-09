@@ -12,8 +12,8 @@ describe Account do
     account.valid?.should eq true
   end
 
-  it "accepts nil-values since they should be done with separate validator" do
+  it "doesnt allow nil-values since they should be done with allow_blank" do
     account = Account.new
-    account.valid?.should eq true
+    account.valid?.should eq false
   end
 end
