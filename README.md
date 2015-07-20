@@ -22,6 +22,6 @@ gem "validates_iban"
 
 ```ruby
 class Account < ActiveRecord::Base
-  validates :iban_string, iban_field: true
+  validates :iban_string, iban: true
 end
 ```
