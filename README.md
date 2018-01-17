@@ -17,7 +17,7 @@ gem "validates_iban"
 ## Usage
 
 ```ruby
-class Account < ActiveRecord::Base
+class Account < ApplicationRecord
   validates :iban_string, iban: true
 end
 ```
