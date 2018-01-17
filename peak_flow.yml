@@ -1,0 +1,3 @@
+script:
+  - cd spec/dummy; bundle exec rake db:schema:load
+  - bundle exec rspec
