@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    validates_iban (0.0.2)
+    validates_iban (0.0.3)
       iban-tools
       rails (>= 3.1.0)
 
