@@ -6,7 +6,7 @@ class IbanValidator < ActiveModel::EachValidator
     validation_errors = iban.validation_errors
 
     unless validation_errors.empty?
-      object.errors[attribute] << (options[:message] || error_string(validation_errors)
+      object.errors[attribute] << (options[:message] || error_string(validation_errors))
     end
   end
 
