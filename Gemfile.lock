@@ -160,7 +160,7 @@ GEM
       rspec-mocks (~> 3.12)
       rspec-support (~> 3.12)
     rspec-support (3.12.0)
-    sqlite3 (1.6.4)
+    sqlite3 (1.6.6)
       mini_portile2 (~> 2.8.0)
     thor (1.2.2)
     timeout (0.4.0)
