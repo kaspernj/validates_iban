@@ -1,0 +1,7 @@
+rvm: true
+paths:
+  - "**"
+before_script:
+  - cd spec/dummy && bundle exec rake db:schema:load
+script:
+  - bundle exec rspec
