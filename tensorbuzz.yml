@@ -1,7 +1,35 @@
 rvm: true
-paths:
-  - "**"
-before_script:
-  - cd spec/dummy && bundle exec rake db:schema:load
-script:
-  - bundle exec rspec
+builds:
+  test:
+    name: Test
+    paths:
+      - lib/**
+      - spec/**
+      - Gemfile
+      - Gemfile.lock
+      - validates_iban.gemspec
+      - Rakefile
+      - .ruby-version
+      - .github/**
+      - tensorbuzz.yml
+      - peak_flow.yml
+    before_script:
+      - cd spec/dummy && bundle exec rake db:schema:load
+    script:
+      - bundle exec rspec
+  package:
+    name: Package
+    paths:
+      - lib/**
+      - Gemfile
+      - Gemfile.lock
+      - validates_iban.gemspec
+      - Rakefile
+      - README.md
+      - MIT-LICENSE
+      - .ruby-version
+      - .github/**
+      - tensorbuzz.yml
+      - peak_flow.yml
+    script:
+      - gem build validates_iban.gemspec
